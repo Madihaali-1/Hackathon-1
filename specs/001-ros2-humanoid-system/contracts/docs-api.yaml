@@ -1,0 +1,50 @@
+# Documentation API Contract
+
+## Purpose
+This contract defines the API endpoints for accessing documentation content, which may be used by the RAG system to provide contextual help to users.
+
+## Endpoints
+
+### GET /api/docs/{module}/{chapter}
+Retrieve documentation content for a specific chapter in a module.
+
+**Path Parameters:**
+- `module`: The module identifier (e.g., "ros2-humanoid-system")
+- `chapter`: The chapter identifier (e.g., "intro-to-ros2")
+
+**Response:**
+- `200 OK`: Returns the chapter content in JSON format
+  ```json
+  {
+    "id": "string",
+    "title": "string",
+    "content": "string",
+    "prerequisites": ["string"],
+    "related": ["string"]
+  }
+  ```
+- `404 Not Found`: If the module or chapter doesn't exist
+
+### GET /api/docs/{module}/toc
+Retrieve the table of contents for a specific module.
+
+**Path Parameters:**
+- `module`: The module identifier (e.g., "ros2-humanoid-system")
+
+**Response:**
+- `200 OK`: Returns the table of contents in JSON format
+  ```json
+  {
+    "module": "string",
+    "title": "string",
+    "chapters": [
+      {
+        "id": "string",
+        "title": "string",
+        "order": "integer",
+        "path": "string"
+      }
+    ]
+  }
+  ```
+- `404 Not Found`: If the module doesn't exist

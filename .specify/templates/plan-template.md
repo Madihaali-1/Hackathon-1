@@ -31,7 +31,13 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+### Compliance Verification
+- [ ] **Spec-First Workflow**: Implementation plan aligns with comprehensive specifications from spec.md
+- [ ] **Technical Accuracy**: All technical decisions based on authoritative sources with verifiable documentation
+- [ ] **Developer-Focused**: Implementation approach prioritizes clarity for developers with runnable examples
+- [ ] **Reproducible Setup**: Deployment process clearly defined with automated CI/CD workflows
+- [ ] **Content-First RAG**: Architecture ensures chatbot is grounded only in book content/user-selected text
+- [ ] **End-to-End Integration**: Integration points clearly defined and tested as complete system
 
 ## Project Structure
 
