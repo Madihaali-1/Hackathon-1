@@ -1,7 +1,8 @@
 \# Feature Specification: Module 3: The AI-Robot Brain (NVIDIA Isaac™)
 
 **Feature Branch**: `3-ai-robot-brain-isaac`
-**Created**: 2025-12-25
+**C
+reated**: 2025-12-25
 **Status**: Draft
 **Input**: User description: "Module 3: The AI-Robot Brain (NVIDIA Isaac™)
 

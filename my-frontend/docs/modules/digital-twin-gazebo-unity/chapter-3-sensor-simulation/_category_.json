@@ -1,0 +1,8 @@
+{
+  "label": "Chapter 3: Sensor Simulation & Validation",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Simulate various sensors (LiDAR, depth cameras, IMU) in Gazebo and Unity environments with validation techniques."
+  }
+}

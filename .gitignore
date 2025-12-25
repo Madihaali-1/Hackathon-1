@@ -48,8 +48,7 @@ coverage/
 ehthumbs.db
 Icon?
 apidoc/
-doc/
-docs/
+# Note: doc/ and docs/ were removed to allow Docusaurus docs to be committed
 *.swp
 *~
 .project
@@ -140,8 +139,6 @@ CVS
 ehthumbs.db
 Icon?
 apidoc/
-doc/
-docs/
 *.swp
 *~
 .project

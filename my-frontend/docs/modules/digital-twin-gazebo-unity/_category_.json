@@ -1,0 +1,8 @@
+{
+  "label": "Module 2: The Digital Twin (Gazebo & Unity)",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about digital twins for humanoid robotics using Gazebo and Unity simulation environments."
+  }
+}
