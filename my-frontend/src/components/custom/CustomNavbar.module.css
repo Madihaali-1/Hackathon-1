@@ -1,0 +1,12 @@
+.customNavbar {
+  background-color: var(--ifm-color-background);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  padding: 0.75rem 0;
+}
+
+@media (max-width: 996px) {
+  .customNavbar {
+    padding: 0.5rem 0;
+  }
+}
