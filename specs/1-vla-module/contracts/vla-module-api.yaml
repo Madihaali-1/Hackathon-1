@@ -1,0 +1,42 @@
+# Documentation API Contract: VLA Module
+
+## Overview
+This contract defines the interface for any interactive elements within the VLA module documentation.
+
+## Endpoints
+
+### GET /vla-module/info
+- **Description**: Retrieve information about the VLA module
+- **Response**: Module metadata, learning objectives, prerequisites
+
+### GET /vla-module/chapters
+- **Description**: List all chapters in the VLA module
+- **Response**: Array of chapter objects with titles, descriptions, and learning objectives
+
+### GET /vla-module/chapters/{chapterId}
+- **Description**: Retrieve specific chapter content
+- **Response**: Chapter content with examples and exercises
+
+## Data Models
+
+### Chapter
+```json
+{
+  "id": "string",
+  "title": "string",
+  "description": "string",
+  "learning_objectives": ["string"],
+  "prerequisites": ["string"],
+  "content": "markdown string",
+  "examples": ["code_example object"]
+}
+```
+
+### CodeExample
+```json
+{
+  "language": "string",
+  "code": "string",
+  "description": "string"
+}
+```
